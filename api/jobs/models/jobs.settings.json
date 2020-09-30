@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "jobs",
+  "info": {
+    "name": "Job"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "position": {
+      "type": "string"
+    },
+    "company": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "dates_employed": {
+      "type": "string"
+    }
+  }
+}
